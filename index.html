@@ -10,6 +10,7 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-45546538-4');
+
     </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
@@ -18,7 +19,12 @@
 
     <!-- CSS  -->
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
-    <link href="min/custom-min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Itim&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <style>
         pre {
             margin: 0 auto;
@@ -140,7 +146,7 @@
                                 <img class="activator" src="img/project1.jpeg">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Working with Buttons and
+                                <span class="card-title activator grey-text text-darken-4">Buttons and
                                     Forms<i class="mdi-navigation-more-vert right"></i></span>
                                 <p><a href="https://krisbx.github.io/Lab6-practice-test/">Lab 6</a></p>
                             </div>
@@ -199,9 +205,9 @@
                                     <li> Inline </li>
                                 <p> Inline stylesheets are styles typed directly into the tag. An example of this could
                                     look like:
-<pre>&lt;p <strong>style="color: aqua;"</strong>>text here&lt;/p&gt;</pre>
+                                <pre>&lt;p <strong>style="color: aqua;"</strong>>text here&lt;/p&gt;</pre>
                                 </p>
-                                    <li> Internal </li>
+                                <li> Internal </li>
                                 <p>CSS can also be within your code, inside it's own tag, known as &lt;style&gt;. Within
                                     the &lt;style&gt; tag, you can create
                                     as many visual changes as you wish, with the layout being a bit different. When your
@@ -216,10 +222,12 @@
 &lt;/style&gt;
                                 </pre>
                                 <li> External </li>
-                                <p> The final way CSS can be used is externally. Most professional web developers will create a separate style sheet&ndash;a .css file&ndash;and  
-                                link it to their index page. This helps prevent clutter on the page they are writing most of their code. 
-                                        It often looks like this:
-<pre>&lt;link rel="stylesheet" href="styles.css"&gt;</pre>
+                                <p> The final way CSS can be used is externally. Most professional web developers will
+                                    create a separate style sheet&ndash;a .css file&ndash;and
+                                    link it to their index page. This helps prevent clutter on the page they are writing
+                                    most of their code.
+                                    It often looks like this:
+                                <pre>&lt;link rel="stylesheet" href="styles.css"&gt;</pre>
                                 </p>
                                 </p>
 
@@ -232,13 +240,13 @@
 
         <!--Parallax-->
         <section class="parallax-container">
-            <div class="parallax"><img src="img/parallax1.png"></div>
+            <div class="parallax"><img src="img/water.jpg"></div>
         </section>
 
         <!--Team-->
         <section class="section scrollspy" id="team">
             <div class="container">
-                <h2 class="header text_b"> My Team </h2>
+                <h2 class="header text_b"> <x-tooltip>My Team</x-tooltip> </h2>
                 <div class="row">
                     <div class="col s12 m3">
                         <div class="card card-avatar">
@@ -247,9 +255,10 @@
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Myself <br />
-                                    <small><em><a class="red-text text-darken-1" href="#">Boss</a></em></small></span>
+                                    <small><em><a class="red-text text-darken-1">Boss</a></em></small></span>
                                 <p>
-                                    <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/kris-banse-5505872bb/">
+                                    <a class="blue-text text-lighten-2"
+                                        href="https://www.linkedin.com/in/kris-banse-5505872bb/">
                                         <i class="fa fa-linkedin-square"></i>
                                     </a>
                                 </p>
@@ -263,12 +272,12 @@
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">My Computer<br />
-                                    <small><em><a class="red-text text-darken-1" href="#">Right Hand Man</a></em></small>
+                                    <small><em><a class="red-text text-darken-1">Right Hand
+                                                Man</a></em></small>
                                 </span>
                                 <p>
-                                    
-                                    <a class="blue-text text-lighten-2"
-                                        href="https://hackertyper.net">
+
+                                    <a class="blue-text text-lighten-2" href="https://hackertyper.net">
                                         <i class="fa fa-google-plus-square"></i>
                                     </a>
                                 </p>
@@ -282,13 +291,14 @@
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">
-                                    Professor Hildred <br />
-                                    <small><em><a class="red-text text-darken-1" href="#">Predecessor</a></em></small></span>
+                                    Prof. Hildred <br />
+                                    <small><em><a class="red-text text-darken-1">Predecessor</a></em></small></span>
                                 <p>
                                     <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
                                         <i class="fa fa-twitter-square"></i>
                                     </a>
-                                    <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/rhildred/?originalSubdomain=ca">
+                                    <a class="blue-text text-lighten-2"
+                                        href="https://www.linkedin.com/in/rhildred/?originalSubdomain=ca">
                                         <i class="fa fa-linkedin-square"></i>
                                     </a>
                                 </p>
@@ -302,11 +312,9 @@
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Koda and Kaya<br />
-                                    <small><em><a class="red-text text-darken-1"
-                                                href="#">Motivators</a></em></small></span>
+                                    <small><em><a class="red-text text-darken-1">Motivators</a></em></small></span>
                                 <p>
-                                    <a class="blue-text text-lighten-2"
-                                        href="https://onemillionpats.com">
+                                    <a class="blue-text text-lighten-2" href="https://onemillionpats.com">
                                         <i class="fa fa-google-plus-square"></i>
                                     </a>
                                 </p>
@@ -384,8 +392,9 @@
         </div>
         <div class="footer-copyright default_color">
             <div class="container">
-                Made by <a class="white-text" href="http://joashpereira.com">Joash Pereira</a>. Edited by <a class="white-text" href="https://www.linkedin.com/in/kris-banse-5505872bb/">Kris Banse</a>. Thanks to <a
-                    class="white-text" href="http://materializecss.com/">materializecss</a>
+                Made by <a class="white-text" href="http://joashpereira.com">Joash Pereira</a>. Edited by <a
+                    class="white-text" href="https://www.linkedin.com/in/kris-banse-5505872bb/">Kris Banse</a>. Thanks
+                to <a class="white-text" href="http://materializecss.com/">materializecss</a>
             </div>
         </div>
     </footer>
@@ -394,7 +403,15 @@
     <!--  Scripts-->
     <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script>
+    <script>
+        class Titletip extends HTMLElement {
+            connectedCallback() {
+                this.innerHTML = ` <div style="color:#EF9A9A;" title="I work alone!">${this.innerHTML}</div>`
+            }
+        }
 
+        customElements.define("x-tooltip", Titletip);
+    </script>
 </body>
 
 </html>

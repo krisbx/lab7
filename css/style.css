@@ -5,22 +5,24 @@
  * Thanks for MaterializeCSS.com
  */
 
-.default_color{background-color: #82e792 !important}
+.default_color{background-color: #b0c4b1 !important}
 
-.default_color_text{color: #2196F3 !important}
+.default_color_text{color: #4a5759 !important}
 
 .icon-block {
     padding: 0 15px;
 }
 
-#intro, #work, #team {padding-top: 4rem;}
+#intro, #work, #team {
+    padding-top: 4rem;
+}
 
 
 #index-banner {
     min-height: 632px;
     max-height: 864px;
     position: relative;
-    background-color: #21f39c;
+    background-color: #dedbd2;
 }
 
 #nav_f{
@@ -32,48 +34,90 @@
     padding: 15% 0;
     font-size: 6.0em;
     font-weight: 100;
-    color:white;
+    color:#4a5759;
+    font-family: 'Sour Gummy';
 }
-
+nav .brand-logo {
+    color: #4a5759;
+}
 .brand-logo{
     position: absolute;
-    color: #fff;
+    color: #4a5759;
     display: inline-block;
     font-size: 2.1rem;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 500;
+    font-family: 'Sour Gummy';
     padding: 0;
-    letter-spacing: 7px;
+    letter-spacing: 5px;
 }
 
-.text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
+.text_h2 {
+    font-weight: 100;
+    margin-bottom: 4%; 
+    line-height: 4.5rem;
+    font-family: 'Outfit';
+}
 
-.span_h2 {font-weight: 300;color: #2196F3;}
+.span_h2 {font-weight: 300;color: #edafb8;}
 
-.text_b{color: #2196F3;}
+.text_b {
+    color: #edafb8;
+    font-family: 'Sour Gummy';
+}
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
 .promo i {
-    color: #2196F3;
+    color: #edafb8;
     font-size: 7rem;
     display: block;
 }
-.card-content a {color: #2196F3;}
 
-.card-content a:hover {color: #2196F3;}
+.card {
+    background-color: #f7e1d7;
+}
 
-#work, #team{background: rgb(247, 247, 247);}
+.card-content a {
+    color: #4a5759;
+    font-weight: 600;
+}
+
+.card .card-content .card-title {
+    font-weight: 400;
+}
+
+.card-content a:hover {color: #edafb8;}
+
+#work, #team {
+    background: #fff5f1;
+}
 
 .text_pink{color:#EF9A9A;}
 
 nav ul a {
     font-size: 1.2rem;
-    color: #FFF;
+    color: #4a5759;
     letter-spacing: 2px;
     display: block;
-    font-weight: 300;
+    font-weight: 450;
     padding: 0px 15px;
+}
+
+.red-text.text-darken-1 {
+    color: #ce7d89 !important;
+}
+
+.red.darken-1 {
+    background-color: #ce7d89 !important;
+}
+
+.blue-text.text-lighten-2 {
+    color: #4a5759 !important;
+}
+
+.white-text {
+    color: #4a5759 !important;
 }
 
 .cd-headline.type .cd-words-wrapper {
@@ -104,7 +148,7 @@ nav ul a {
     animation: cd-pulse 1s infinite;
 }
 .cd-headline.type .cd-words-wrapper.selected {
-    background-color: #FFF;
+    background-color: #eeece5;
 }
 
 .cd-headline.type .cd-words-wrapper.selected::after {
@@ -112,7 +156,7 @@ nav ul a {
 }
 
 .cd-headline.type .cd-words-wrapper.selected b {
-    color: #2196F3;
+    color: #edafb8;
 }
 
 .cd-headline.type b {
@@ -237,7 +281,7 @@ nav a.button-collapse {
 .card-avatar img {
     height: 150px;
     width: 150px;
-    border-radius: 75px;
+    border-radius: 10px;
 }
 
 .card-avatar .card-content {
